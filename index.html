@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+    <title>Barbearia 337</title>
+</head>
+
+<body>
+    <!-- HEADER-->
+    <div class="bg-home">
+        <header>
+
+            <nav class="header-content container">
+                <div class="header-icons" data-aos="fade-down" data-aos-delay="200">
+                    <a href="https://www.instagram.com/barbearia.337/" target="_blank">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                       </a>
+                       <a href="https://www.tiktok.com/@barbearia.337" target="_blank">
+                        <i class="fa-brands fa-tiktok fa-2x"></i>
+                       </a>
+                       <a href="https://www.facebook.com/barbearia.337?locale=pt_BR" target="_blank">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                       </a>
+                </div>
+                <div class="header-logo" data-aos="fade-down" data-aos-delay="300">
+                    <img 
+                    data-aos="flip-up"
+                    data-aos-delay="300"
+                    data-aos-duration="1500"
+                    src="assets/logo.svg"
+                    alt="Logo da barbearia">
+
+                </div>
+                <div data-aos="fade-down">
+                    <a class="header-button" href="https://api.whatsapp.com/send?phone=55000000000000&text=Olá,%20gostaria%20de%20agendar%20um%20horário!"
+                    target="_blank">
+                        Agendar horário
+                    </a>
+                </div>
+            </nav>
+
+            <main class="hero container" data-aos="fade-down" data-aos-delay="300">
+                
+                <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDA.</h1>
+                <p>Horário de funcionamento: 9:00h ás 20:00h e Sábado das 8:00h até ás 13:00h</p>
+                <a href="https://api.whatsapp.com/send?phone=55000000000000&text=Olá,%20gostaria%20de%20agendar%20um%20horário!"
+                class="button-contact"
+                target="_blank"
+                >
+                    Agendar horário
+                </a>
+            </main>
+            
+        </header>
+
+    </div>
+
+    <!-------------------BG Home--------------------->
+
+    <style>
+        .bg-home:before{
+       content: '';
+       display: block;
+       position: absolute;
+       background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1),#06121e), url("../assets/3377.png");
+       left: 0;
+       top: 0;
+       width: 100%;
+       height: 100%;
+       z-index: -1;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-color: 50% 0;
+       opacity: 0.9;  
+    }
+    </style>
+  <!-------------------FIM Home--------------------->
+
+
+
+
+<!-------------------------------------------------Sobre-------------------------->
+    <section class="about">
+    
+        <div class="container about-content">
+            <div  data-aos="zoom-out-left" data-aos-delay="100">
+                <img 
+                src="assets/images.svg" 
+                alt="imagem sobre a barbearia"
+                />
+            </div>
+
+            <div class="sobre-description" data-aos="zoom-out-left" data-aos-delay="250">
+                <h2>Sobre</h2>
+                <p>Falar um pouco sobre a biografia da barbearia, testetestes testestestestes testestestes testestestesteste stetestestestestestest</p>
+                <p>Horário de funcionamento do estabelecimento: <strong>Segunda á sexta 9:00h </strong> até <strong>20:00h e</strong> <strong>Sábado das 8:00h até ás 13:00h</strong></p>
+            </div>
+
+        </div>
+    </section>
+    
+    <style>
+        .about{
+        background-color: #06121e;
+        overflow: hidden;
+        color: #fff;
+        }
+
+        .about-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        padding: 34px 14px 64px 14px;
+
+        img{
+            max-width: 570px;
+        }
+
+    }
+
+        .about-content div{
+            flex: 1;
+    }
+
+        .about-description{
+            h2{
+                font-size: 38px;
+                margin-bottom: 24px;
+            }
+
+            p{
+                margin-bottom: 14px;
+                line-height: 150%;
+            }
+    }
+
+        @media screen and (max-width: 768px) {
+            .about-content{
+                flex-direction: column;
+            }
+            
+    }
+            </style>
+<!-------------------SERVIÇOS---------------------->
+            <section class="services">
+                <div class="services-content container" data-aos="fade-up" data-aos-delay="150">
+                <h2>Serviços</h2>
+                <p>Aqui estão alguns de nossos serviços fornecidos para você!</p>
+            </div>
+
+                <section class="haircuts">
+
+                    <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+                        <img 
+                        src="assets/cabelo1.png" 
+                        alt="Corte normal"
+                        />
+                        <div class="haircut-info">
+                            <strong>Corte Normal</strong>
+                            <button>
+                                R$ 45,00
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="haircut" data-aos="fade-up" data-aos-delay="250">
+                        <img 
+                        src="assets/barba4.jpg" 
+                        alt="Barba completa"
+                        />
+                        <div class="haircut-info">
+                            <strong>Barba Normal</strong>
+                            <button>
+                                R$ 45,00
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="haircut" data-aos="fade-up" data-aos-delay="400">
+                        <img 
+                        src="assets/cabelobarba.png" 
+                        alt="Corte e barba"
+                        />
+                        <div class="haircut-info">
+                            <strong>Corte e Barba</strong>
+                            <button>
+                                R$ 90,00
+                            </button>
+                        </div>
+                    </div>
+
+                </section>
+            </section>
+
+
+
+
+<!-------------------SERVIÇOS---------------------->
+            <section>
+                <style>
+                    .services{   
+                    background-color: #fff;
+                    color: #232224;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 54px 14px;
+                    }
+                </style>
+
+<!---------------------------------------------------------------------->
+                <style>
+                    .services-content h2{
+                        text-transform: uppercase;
+                        text-align: center;
+                        font-size: 38px;
+                        margin-bottom: 14px;
+                    }
+                    
+                </style>
+
+<!---------------------------------------------------------------------->
+                <style>
+                    .services-content p{
+                        line-height: 150%;
+                        margin-bottom: 14px;
+                        text-align: center;
+                        max-width: 780px;
+                    }
+                </style>
+
+<!---------------------------------------------------------------------->
+                <style>
+                    .haircuts{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 16px;
+                        padding: 0 44px 34px 44px;
+                    }
+                </style>
+
+<!---------------------------------------------------------------------->
+                <style>
+                    .haircut{
+                        flex: 1;
+                        display: flex;
+                        flex-direction: column;
+                        background-color: #fff;
+                        border-radius: 8px;
+                        box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+
+                        overflow: hidden;
+
+                        img{
+                            width: 100%;
+                            max-width: 354px;
+                            transition: transform 0.2s;
+
+                        }
+
+                 }
+                </style>
+
+<!---------------------------------------------------------------------->
+                <style>
+                    .haircut img:hover{
+                        transform: scale(1.2);
+                        z-index: 1;
+                    }
+                </style>
+
+<!---------------------------------------------------------------------->
+                <style>
+                    .haircut-info{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 14px;
+                        background-color: #fff;
+                        z-index: 99;
+                    }
+                </style>
+
+<!---------------------------------------------------------------------->
+                <style>
+                    .haircut-info button{
+                        color: #fff;
+                        background-color: #d94140;
+                        padding: 4px 30px ;
+                        border-radius: 8px;
+                        border: 0;
+                        cursor: default; 
+                    }
+                </style>
+
+<!---------------------------------------------------------------------->
+
+                <style>
+                    @media screen and (max-width: 768px) {
+                        .haircuts{
+                            flex-direction: column;
+                        }
+                    }
+                </style>
+<!---------------------------------------------------------------------->
+
+                <style>
+                    .haircut img{
+                        max-width: 740px;
+                    }
+
+                </style>
+<!------------------------------Final dos SERVIÇOS---------------------------------->
+            </section>
+
+
+<!------------------------------Localização--------------------------------->
+            <div class="services">
+                <h2>Venha nos Conhecer!</h2>
+            </div>
+
+            <iframe
+            width="100%"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.400947058827!2d-46.906099988328315!3d-23.192054378968034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf254a694c8195%3A0xebbe3025dd72b1a!2sBarbearia%20337!5e0!3m2!1spt-BR!2sbr!4v1723789372457!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+<!------------------------------FOOTER---------------------------------->
+
+            <footer class="footer">
+                <div class="footer-icons">
+                        <a href="https://www.instagram.com/barbearia.337/" target="_blank">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                       </a>
+                       <a href="https://www.tiktok.com/@barbearia.337" target="_blank">
+                        <i class="fa-brands fa-tiktok fa-2x"></i>
+                       </a>
+                       <a href="https://www.facebook.com/barbearia.337?locale=pt_BR" target="_blank">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                       </a>
+                </div>
+
+                <div>
+                    <img 
+                    src="assets/logo.svg" 
+                    alt="Logo Barbearia"/>
+                </div>
+
+                <p>Copyright 2024 | Barbearia 337 - Todos os direitos reservados.</p>
+
+
+ <!---------------------------------------------------------------------->
+                <style>
+                    .footer{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 54px 0;
+                        gap: 24px;
+                        color: #fff;
+                    }
+                </style>
+<!---------------------------------------------------------------------->
+
+                <style>
+                    .footer-icons{
+                        display: flex;
+                        gap: 14px;
+                        color: #fff;
+                    }
+                </style>
+<!---------------------------------------------------------------------->
+            </footer>
+
+
+<!------------------------------BOTÃO WHATSAPP--------------------------->
+
+            <a href="https://api.whatsapp.com/send?phone=55000000000000&text=Olá,%20gostaria%20de%20agendar%20um%20horário!"
+            class="btn-whatsapp"
+            target="_blank"
+            data-aos="zoom-in-up" data-aos-delay="400"
+            >
+                <img 
+                src="assets/whatssapp.svg" 
+                alt="Botão whatsapp">
+
+                <span class="tooltip-text">Agende seu horário!</span>
+            </a>
+<!---------------------------------------------------------------------->
+
+            <style>
+                .btn-whatsapp{
+                    position: fixed;
+                    bottom: 14px;
+                    right: 24px;
+                    z-index: 99;
+                    
+
+
+                    img{
+                    max-width: 74px;
+                    transition: transform 0.4s;
+                }
+
+
+                    img:hover{
+                        transform: scale(1.1);
+                    }
+            }           
+            </style>
+<!---------------------------------------------------------------------->
+
+            <style>
+                .btn-whatsapp .tooltip-text{
+                   visibility: hidden;
+                   position: absolute;
+                    width: 120px;
+                    top: 8px;
+                    left: -144px;
+                    padding: 6px;
+                    border-radius: 8px;
+                    text-align: center;
+                    background-color: #06121e;
+                    color: #fff;
+                    opacity: 0;
+                    transition: opacity 0.4s;
+                }
+
+                .btn-whatsapp:hover .tooltip-text{
+                    visibility: visible;
+                    opacity: 1;
+                }
+
+                @media screen and (max-width: 768px){
+                    .btn-whatsapp{
+                        img{
+                            max-width: 64px;
+                        }
+                    }
+                }
+
+            </style>
+
+            
+            <script src="script.js"></script>
+
+
+
+
+
+
+            
+                    <style>
+                    .button-contact:hover{
+                    animation: scalebutton 0.8s alternate infinite;
+                }
+
+                    @keyframes scaleButton {
+                    from{
+                        transform: scale(1);
+                    }
+                    to{
+                        transform: scale(1,07);
+                    }
+                    
+                } 
+
+                    @media screen and(max-width: 768px) {
+                    .hero{
+                        min-height: 60vh;
+                        h1{
+                            font-size: 34px;
+                            padding: 0 14px;
+                            width: 100%
+                        }
+
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    
+                    }
+                    @media screen and (max-width: 480px){
+                    .hero h1{
+                        font-size: 24px;
+                    }
+                    
+                    }
+
+                    
+            </style>
+            
+</body>
+</html>
