@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +26,7 @@ i {
 }
 
 .header-icons a:hover i {
-  animation: translateY 0.8s infinite alternate;
+  animation: translateY 0.8s alternate infinite;
   color: #d34040;
 }
 
@@ -49,6 +50,7 @@ i {
 .header-button:hover {
   border: 1px solid #d34040;
   background-color: #d34040;
+  
 }
 
 .header-logo {
@@ -77,6 +79,8 @@ i {
     display: none;
   }
 }
+
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -90,7 +94,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/3377.png");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/337.jpg");
   left: 0;
   top: 0;
   width: 100%;
@@ -99,6 +103,8 @@ i {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.9;
+
+
 }
 
 .hero {
@@ -170,3 +176,119 @@ a {
   cursor: pointer;
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
+
+
+/*#-----------------------------Assinatura-------------------*/
+
+.planos{
+  background-color:#06121e;
+  color:#fff;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 54px 14px;
+  overflow: hidden;
+  img{
+    max-width: 50px;
+  }
+}
+
+
+.barbearia-assinatura h2{
+  text-transform: uppercase;
+  font-size: 30px;
+  padding: 20px;
+}
+
+
+
+.assinatura-description{
+  h2{
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 5px;
+    align-items: center;
+  }
+
+  p{
+    margin-bottom: 14px;
+    line-height: 150%;
+    text-align: justify;
+    
+  }
+}
+
+.container-assinatura div{
+  line-height: 50px;
+  
+  .assinatura-button{
+    display:flex ;
+    align-items: center;
+    justify-content:right;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .container-assinatura{
+      flex-direction: column;
+    }
+}
+
+.img{
+  width:50px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px 10px 30px 30px ;
+  box-shadow: 0px -1px 20px -4px #cfcfcf;
+  flex: 1;
+  overflow: hidden;
+  
+  img{
+    transition: transform 0.25s;
+  }
+}
+
+
+.container-assinatura{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: justify;
+
+  
+ .assinatura-description p{
+  max-width: 1000px;
+ }
+}
+
+.img img:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.assinatura-button button{
+  color: #ffffff;
+  background-color:#d34040;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  margin-top: -35px;
+  
+}
+
+.assinatura-button:hover{
+  transform: scale(1.02);
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-mais button{
+  display:flex;
+  justify-items: column;
+}
+
+
+/*#-----------------------------Assinatura-------------------*/
